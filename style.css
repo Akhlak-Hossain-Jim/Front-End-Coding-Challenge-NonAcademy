@@ -23,11 +23,6 @@ main .body {
   justify-content: center;
   flex-wrap: wrap;
 }
-main .body .container h2 {
-  padding: 16px;
-  font-size: 24px;
-  text-align: center;
-}
 main .body .container .canvas {
   overflow: hidden;
   width: 400px;
@@ -92,35 +87,4 @@ main .body .container .canvas.p1 .in:after {
   width: 20px;
   top: 60px;
   left: 30px;
-}
-main .body .container .canvas.p2 {
-  background: #243d83;
-}
-main .body .container .canvas.p2 .main-circle {
-  width: 200px;
-  aspect-ratio: 1/1;
-  background: #6592cf;
-  border-radius: 50%;
-  margin: 50px auto;
-}
-main .body .container .canvas.p2 .divider {
-  position: absolute;
-  top: -9px;
-  left: 116px;
-  width: 169px;
-  background: transparent;
-  aspect-ratio: 1/1;
-  border: 20px solid #243d83;
-  border-radius: 50%;
-}
-main .body .container .canvas.p2 .divider.bottom {
-  top: 140px;
-}
-main .body .container .canvas.p2 .divider.left {
-  left: 40px;
-  top: 66px;
-}
-main .body .container .canvas.p2 .divider.right {
-  left: 190px;
-  top: 66px;
 }
